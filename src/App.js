@@ -6,7 +6,7 @@ function App() {
   const [colorValue, setColorValue] = useState('');
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>React Color Picker</h1>
       <Square colorValue={colorValue}/>
       <Input colorValue={colorValue} setColorValue={setColorValue}/>
     </div>
