@@ -13,8 +13,9 @@ function App() {
         hexValue={hexValue}
         />
       <Input 
-        colorValue={colorValue} setColorValue={setColorValue}
-        hexValue={hexValue} setHexValue={setHexValue}
+        colorValue={colorValue} 
+        setColorValue={setColorValue}
+        setHexValue={setHexValue}
       />
     </div>
   );
